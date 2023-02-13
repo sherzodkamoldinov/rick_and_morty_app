@@ -18,6 +18,8 @@ dependencies:
   # functional programming thingies
   dartz: ^0.10.1
 
+  # remote API
+  http: ^0.13.5
 dev_dependencies:
   flutter_test:
     sdk: flutter
