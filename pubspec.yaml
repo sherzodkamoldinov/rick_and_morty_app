@@ -20,6 +20,10 @@ dependencies:
 
   # remote API
   http: ^0.13.5
+
+  # local cache
+  shared_preferences: ^2.0.17
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
