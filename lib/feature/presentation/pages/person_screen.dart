@@ -10,7 +10,12 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Characters'),
         centerTitle: true,
-        actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.search, color: Colors.white))],
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.search, color: Colors.white),
+          ),
+        ],
       ),
       body: PersonsListWidget(),
     );
