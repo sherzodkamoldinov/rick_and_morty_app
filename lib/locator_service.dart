@@ -16,7 +16,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 // sl - service locator
 final sl = GetIt.instance;
 
-Future<void> inti() async {
+Future<void> init() async {
   // BLoC / Cubit
   sl.registerFactory(() => PersonsListCubit(getAllPersons: sl()));
   sl.registerFactory(() => PersonSearchBloc(searchPerson: sl()));
