@@ -20,9 +20,13 @@ dependencies:
 
   # remote API
   http: ^0.13.5
+  internet_connection_checker: ^1.0.0+1
 
   # local cache
   shared_preferences: ^2.0.17
+
+  #state management
+  flutter_bloc: ^8.1.2
 
 dev_dependencies:
   flutter_test:
